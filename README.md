@@ -18,7 +18,6 @@ stochastic batch gradient descent computations. Network size is adoptive and sup
 # Use case
 
 Used for training and deploying human activity recognition system using wearable sensors.
-File: [model_6_9_6.ipynb](model_6_9_6.ipynb)
 
 Accuracy on test set using 6-9-6 neural network for multi-class classification using
 softmax layer: **97.62%**
