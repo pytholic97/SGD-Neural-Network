@@ -24,9 +24,9 @@ softmax layer: **97.62%**
 
 # Dependencies
 
-numpy
+Primary: numpy
 
-matplotlib, sklearn, pandas, keras.utils : for preprocessing
+Secondary: matplotlib, sklearn, pandas, keras.utils (for preprocessing)
 
 # Author
 

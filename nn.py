@@ -1,6 +1,7 @@
 """
-Neural network
+Neural network class
 """
+
 import numpy as np
 import time
 from datetime import timedelta
@@ -14,11 +15,8 @@ class neural_net():
         self.output_layer = output_layer
         np.random.seed(1)
         self.w = [np.random.randn(self.shape[i],self.shape[i+1]) for i in range(self.layer_count - 1)]
-        #for i in range(1,self.layer_count):
-        #self.w.append(np.random.randn(self.shape[i],self.shape[i-1]))
         self.bias = []
         self.bias.append(np.zeros((self.shape[0],1)))
-        #self.bias = [for i in range(self.layer_count - 1)]
         for i in range(1,self.layer_count):
             self.bias.append(np.random.randn(self.shape[i],1))
         #self.acts = [np.zeros(self.shape[i]) for i in range(self.layer_count)]
